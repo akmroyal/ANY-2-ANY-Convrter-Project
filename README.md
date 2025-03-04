@@ -1,12 +1,44 @@
-# React + Vite
+# 📌 PDF Converter Web App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![PDF Converter](https://img.shields.io/badge/React-19.0.0-blue?style=flat-square)  
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4.0.9-blue?style=flat-square)  
+![pdf.js](https://img.shields.io/badge/pdf.js-4.10.38-orange?style=flat-square)  
 
-Currently, two official plugins are available:
+## 🖥️ Overview  
+This **React.js-based PDF Converter** allows users to **convert files** into different formats effortlessly. The application is designed with **a modern UI using Tailwind CSS** and offers multiple file conversion functionalities, including:  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ JPG to PDF  
+✅ Word to PDF  
+✅ PDF to JPG  
+✅ HTML to PDF : coming soon
+✅Merge Multiple PDFs  : coming soon
 
-## Expanding the ESLint configuration
+With a **smooth and responsive UI**, it ensures a great user experience.  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Features  
+✅ **Multiple File Format Support** – Convert between PDFs, images, and documents.  
+✅ **Fast & Efficient** – Quick file conversions without quality loss.  
+✅ **User-Friendly UI** – Simple drag & drop or file selection.  
+✅ **Downloadable Output** – Save converted files instantly.  
+✅ **Modern Tech Stack** – Built with React.js, Tailwind CSS, pdf.js, and more.  
+
+---
+
+## 🛠️ Tech Stack  
+🔹 **Frontend**: React.js, Tailwind CSS  
+🔹 **Libraries**: pdf.js, file-saver, react-dropzone  
+🔹 **Build Tool**: Vite  
+🔹 **Version Control**: Git & GitHub  
+
+---
+
+## 🚀 Installation & Setup  
+
+Follow these steps to **clone and run** the project locally:  
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/yourusername/pdf-converter.git
+cd pdf-converter
