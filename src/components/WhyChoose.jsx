@@ -4,6 +4,7 @@ import React from 'react'
 import people from '../assets/people.png'
 import hour from '../assets/fullday.svg'
 import protection from '../assets/protection.svg'
+import HeroExplorer from './HeroExplorer'
 
 const facts = [
     { title: "People Trust Us", description: "Over a billion users have used our service to simplify their work with digital documents.", icon: people },
@@ -12,8 +13,9 @@ const facts = [
 ]
 const WhyChoose = () => {
     return (
-        <div className='flex flex-col items-center gap-18 bg-white-700 px-48'>
-            <h1 className='text-5xl text-gray-700'>Why Choose <span className='tracking-tighter'>ANY-2️⃣-ANY</span> ?</h1>
+        <div className='flex flex-col items-center gap-18 bg-white-700 md:px-3 lg:px-48'>
+            <HeroExplorer />
+            <h1 className='text-5xl text-gray-700 text-center'>Why Choose <span className='tracking-tighter'>ANY-2️⃣-ANY</span> ?</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6'>
                 {facts.map((fact, index) => (
                     <div key={index} className={` flex flex-col justify-between p-4 bg-box shadow-lg rounded cursor-pointer text-gray-700`}>

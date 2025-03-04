@@ -3,10 +3,10 @@ import MyPdf from '../assets/pdf.svg'
 import { Link } from 'react-router-dom'
 const HeroExplorer = () => {
   return (
-    <div className='relative mt-16 flex justify-between w-full px-18'>
+    <div className='relative mt-32 flex flex-col md:flex-row justify-between w-full px-8 lg:px-18'>
       <div className='flex flex-col gap-4'>
         <h1 className='text-5xl text-gray-800 tracking-tighter'>Keep Your Simple Tasks Simple</h1>
-        <div className='normal text-gray-600 flex flex-col text-xl pl-4'>
+        <div className='normal text-gray-600 flex flex-col text-xl pl-4 sm:text-red-400'>
           <p>✅ Drag & Drop</p>
           <p>✅ Secure and Private Conversion</p>
           <p>✅ No Watermarks, No Limits</p>
@@ -17,7 +17,7 @@ const HeroExplorer = () => {
           Explore All PDF Tools
         </Link>
       </div>
-      <div>
+      <div className='flex justify-center mt-12 md:mt-0'>
         <img src={MyPdf}></img>
       </div>
     </div>
