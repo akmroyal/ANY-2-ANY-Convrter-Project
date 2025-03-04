@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Dangrek", sans-serif;
+}
+.normal{
+  font-family: Arial;
+}
+.sub-heading{
+  font-family: "Shafarik", system-ui;
+}
+.navBar {
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.48);
+}
+
+.stroke {
+  -webkit-text-stroke:1px oklch(0.723 0.219 149.579);
+}
+
+.logo{
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg{
+  background-color: rgb(250, 250, 250);
+}
+
+.bg-box{
+  background-color: rgb(255, 255, 255);
+  border: 1.5px solid rgb(210, 209, 209);
+}
+.bg-box:hover{
+  background-color: rgb(245, 245, 245);
+}
+
+.heart {
+  font-size: 1.1rem;
+  display: inline-block;
+  animation: heartbeat 1s infinite ease-in-out; /* Animation properties */
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1); /* Normal size */
+  }
+  50% {
+    transform: scale(1.2); /* Scale up slightly */
+  }
+  100% {
+    transform: scale(1); /* Back to normal size */
+  }
+}
