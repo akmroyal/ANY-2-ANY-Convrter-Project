@@ -36,6 +36,7 @@ With a **smooth and responsive UI**, it ensures a great user experience.
 ## 📸 **SnapShots**
 ---
 ```Homepage : ```
+---
 - ![Home](https://github.com/akmroyal/ANY-2-ANY-Convrter-Project/blob/main/Home.png)
 ---
 ```Drop File : Images to PDF ```
@@ -44,7 +45,7 @@ With a **smooth and responsive UI**, it ensures a great user experience.
 ---
 ```Download : ```
 ---
-- [Download](https://github.com/akmroyal/ANY-2-ANY-Convrter-Project/blob/main/DropImage.png)
+- ![Download](https://github.com/akmroyal/ANY-2-ANY-Convrter-Project/blob/main/DropImage.png)
 ---
 ## 🚀 Installation & Setup  
 
