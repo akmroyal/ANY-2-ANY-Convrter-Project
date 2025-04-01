@@ -6,7 +6,7 @@ const AllTools = () => {
   return (
     <div className='flex flex-col items-center mt-10 gap-28'>
       <div className='flex flex-col items-center gap-10 text-gray-700'>
-        <h1 className='text-5xl'>All Tools from the </h1>
+        <h1 className='text-5xl' id="allTools">All Tools from the </h1>
         <p className='text-2xl'>Make use of our collection of PDF tools to process digital documents and streamline your workflow seamlessly.</p>
       </div>
       <div className='bg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6'>
